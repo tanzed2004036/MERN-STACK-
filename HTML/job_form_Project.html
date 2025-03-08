@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    
+    <title>Job Application Form Project</title>
+  </head>
+  <body>
+    <h2>Job Application With Resume Upload</h2>
+    <br />
+    <form action="post">
+      <h4>Contact Information</h4><br>
+
+      <level for="fname">First name</level><br>
+      <input type="text" id="fname" name="fname" /><br>
+      <level for="lname">Last name</level><br>
+      <input type="text" id="lname" name="lname" /><br>
+      <level for="email">Email</level><br>
+      <input type="email" id="email" name="email"><br>
+      <level for="phone">Phone</level><br>
+      <input type="tel" id="phone" name="phone"><br>
+
+      <h4>Position</h4><br>
+
+      <level for="pos">Position you are applying for</level><br>
+      <input type="text" id="pos" name="pos" /><br><br>
+      <level for="resume">Resume upload</level><br>
+      <input type="file" id="resume" name="resume" /><br><br>
+      <level for="port">Portpolio website</level><br>
+      <input type="text" id="port" name="port"><br><br>
+      <level for="salary">Salary requirments</level><br>
+      <input type="number" id="salary" name="salary"><br><br>
+      <level for="when">When can you start ?</level><br>
+      <input type="text" id="when" name="when"><br><br>
+      <level for="">Are you waiting to re ?</level><br>
+      <input type="radio" id="" name="re" value="Yes">Yes<br>
+      <input type="radio" id="" name="re" value="No">No<br>
+      <input type="radio" id="" name="re" value="Not sure">Not sure<br><br>
+      <level for="lastcompany">Last company you worked for</level><br>
+      <input type="text" id="lastcompany" name="lastcompany"><br><br>
+
+      <fieldset style="width: 150px;">
+        <legend>Skills</legend>
+        <level for="html">HTML</level>
+        <input type="checkbox" id="html" name="html"> <br>
+        <level for="css">CSS</level>
+        <input type="checkbox" id="css" name="css"><br>
+        <level for="javascript">JavaScript</level>
+        <input type="checkbox" id="javascript" name="javascript">
+      </fieldset><br><br>
+
+      <level for="comment">Comments</level><br>
+      <textarea type="text" id="comment" name="comment" rows="7" cols="39"></textarea><br>
+      <button type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
