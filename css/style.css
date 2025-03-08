@@ -1,0 +1,37 @@
+.first{
+    display: inline;
+}
+.second{
+    display: inline;
+}
+
+.container{
+    background-color: aquamarine;
+    border: solid,2px,black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    border: solid,2px,black;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 30px;
+    display: flex;
+}
+#one{
+    background-color: brown;
+}
+#two{
+    background-color: rgb(142, 204, 26);
+}
+#three{
+    background-color: rgb(183, 216, 16);
+}
+#four{
+    background-color: rgb(218, 127, 74);
+}

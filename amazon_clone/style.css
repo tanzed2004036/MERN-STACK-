@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    height: 50px;
+}
+#logo{
+    height: 38px;
+    padding: 4px;
+}
+.nav-logo:hover{
+    border: white,solid,2px;
+}
+/* navbar location */
+.navbar-location{
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    height: 50px;
+}
+.country{
+    align-items: center;
+    color: rgb(177, 181, 184);
+    font-size: 12px;
+    padding: 3px;
+}
+.location-icon{
+    color: aliceblue;
+    align-self: center;
+    padding: 3px;
+}
+#Bangladesh{
+    font-size: 13.5px;
+    color: aliceblue
+}
+.navbar-location:hover{
+    border: white,solid,2px;
+}
+/* search */
+.navbar-search{
+    height: 43px;
+    background-color: orange;
+    display: flex;
+    width: 700px;
+    border-radius: 8px;
+}
+.navbar-search:hover{
+    border: rgb(224, 104, 12),solid,2px;
+}
+.search{
+    text-align: center;
+    background-color: antiquewhite;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 55px;
+}
+.navbar-search input{
+    width: 82%;
+    
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+/* sign in */
+.nav-sign-in{
+    color: aliceblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.nav-sign-in:hover{
+    border: white,solid,2px;
+}
+.hello{
+    font-size: 13px;
+}
+.sign-in{
+    font-size: 13.5px;
+}
+.nav-order-return{
+    color: aliceblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.nav-order-return:hover{
+    border: white,solid,2px;
+}
+.return{
+    font-size: 13px;
+}
+.order{
+    font-size: 13.5px;
+}
+/* cart nav */
+.nav-cart{
+    color: aliceblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.nav-cart:hover{
+    
+    border: white,solid,2px;
+}
+
+/* navbar light */
+.navbarlight{
+    background-color: #2d3232;
+    color: aliceblue;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.all{
+    margin-left: 5px;
+    padding: 8px;
+}
+.other-nav-light{
+    margin-left: 5px;
+    display: flex;
+}
+.other-nav-light p{
+    padding: 8px;
+    margin: 0px 3px 0px 3px;
+}
+.border:hover{
+    border: white,solid,2px;
+}
+
+/* ******main content********** */
+.hero-section{
+    background-image: url(hero.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(240, 204, 87);
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-content1{
+    width: 90%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.box-image{
+    
+    
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box-content1 p{
+    color: blue;
+    font-size: 13px;
+}
+.box-content1 p:hover{
+    color: red;
+}
+
+/* footer */
+.footer1{
+    background-color: #2d3232;
+    color: aliceblue;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.footer1:hover{
+    background-color: #5e6767;
+}
+
+.footer2{
+    background-color: #1c1f1f;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.footer2 ul {
+    color: aliceblue;
+    margin: 20px;
+}
+ul a{
+    color: aliceblue;
+    display: block;
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.footer3{
+    background-color: #1c1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid .1px rgb(182, 174, 174);
+}
