@@ -1,0 +1,2 @@
+PORT=5000
+MONGO_URI=mongodb+srv://tanzed_hasan:983CnTYF3iInQ0DW@clusterone.z9ed22c.mongodb.net/?retryWrites=true&w=majority&appName=ClusterOne
