@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.avif" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <div class="amount">
+        <p>Enter Amount</p>
+        <input type="text" placeholder="1" />
+      </div>
+      <div class="dropdown">
+        <div class="from">
+          <p>From</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png">
+            <select name="from" id="">
+              <option value="USD">USD</option>
+              <!-- <option value="BDT">BDT</option> -->
+            </select>
+          </div>
+        </div>
+        <div class="to">
+          <p>To</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/BD/flat/64.png">
+            <select name="to" id="">
+              <option value="USD">USD</option>
+              <option value="BDT" selected>BDT</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="mgs">_ USD = _ BDT</div>
+      <button type="submit">Get exchange rate</button>
+    </div>
+    <script src="courntry.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

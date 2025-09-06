@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(228, 202, 166);
+}
+.heading1{
+    background-color: rgb(213, 156, 13);
+    text-align: center;
+}
+.container{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(219, 49, 49);
+    margin: 5px;
+    text-align: center;
+}
+#hell{
+    margin: 4px;
+    color: rgb(18, 6, 143);
+}
